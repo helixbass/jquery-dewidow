@@ -1,0 +1,1 @@
+((function(){var a;a=jQuery,a.fn.dewidow=function(b){var c,d,e;return d=a.extend({words:4},b),e=this.text().split(/\s+/),c=e.length-d.words,this.html(e.slice(0,c).join(" ")+" "+e.slice(c).join("&nbsp;"))}})).call(this);
